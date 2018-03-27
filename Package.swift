@@ -30,11 +30,13 @@ let packages = Package(
     products: [
         .library(
             name: "PureLayout",
-            targets: ["PureLayout"]),
+            targets: ["PureLayout"])
     ],
+    dependencies: [],
     targets: [
         .target(
             name: "PureLayout",
-            path: “PureLayout\PureLayout")
+            path: “PureLayout\PureLayout",
+            dependencies: [])
     ]
 )
