@@ -1,7 +1,7 @@
 //
 //  Package.swift
 //
-// This code is distributed under the terms and conditions of the MIT license.
+//  This code is distributed under the terms and conditions of the MIT license.
 //
 //  Copyright (c) 2014-2015 Tyler Fox
 //
@@ -35,6 +35,6 @@ let packages = Package(
     targets: [
         .target(
             name: "PureLayout",
-            path: “PureLayout/PureLayout")
+            path: “PureLayout")
     ]
 )
