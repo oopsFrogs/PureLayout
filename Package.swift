@@ -35,6 +35,6 @@ let packages = Package(
     targets: [
         .target(
             name: "PureLayout",
-            path: “PureLayout")
+            path: “PureLayout\PureLayout")
     ]
 )
