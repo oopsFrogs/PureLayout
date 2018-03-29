@@ -25,7 +25,7 @@
 
 import PackageDescription
 
-let packages = Package(
+let package = Package(
     name: "PureLayout",
     products: [
         .library(
